@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -entry point
- * should retun0
- * return should be0
+ * main -Entry point
+ *
+ * Return Always 0 (Success)
  */
 int main(void)
 {
