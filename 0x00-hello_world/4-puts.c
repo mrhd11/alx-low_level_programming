@@ -2,6 +2,7 @@
 /**
  * main -entry point
  * should retun0
+ * return should be0
  */
 int main(void)
 {
