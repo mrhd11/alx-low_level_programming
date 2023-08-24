@@ -1,5 +1,3 @@
-char *_strcat(char *dest, char *src)
-{
 #include "main.h"
 
 /**
@@ -25,5 +23,4 @@ char *_strcat(char *dest, char *src)
 	*(dest + i) = '\0';
 	p = dest;
 	return (p);
-}	
 }
