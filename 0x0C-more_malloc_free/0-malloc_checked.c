@@ -7,15 +7,12 @@
  * @b: size in bytes
  * Return: void pointer
  */
-
 void *malloc_checked(unsigned int b)
 {
-	int *p;
+	void *arr;
 
-	p = malloc(b);
-	if(p == NULL)
-	{
+	arr = malloc(b);
+	if (arr == NULL)
 		exit(98);
-	}
-	return (p);
+	return (arr);
 }
